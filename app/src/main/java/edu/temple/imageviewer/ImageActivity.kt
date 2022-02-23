@@ -22,7 +22,7 @@ class ImageActivity : AppCompatActivity() {
             R.drawable.rottweiler,
             R.drawable.yellow_lab)
 
-        val numColumns = 2
+        val numColumns = 5
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
         recyclerView.layoutManager = GridLayoutManager(this, numColumns)
 
